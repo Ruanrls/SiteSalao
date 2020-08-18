@@ -7,6 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon">
 
     <!-- GOOGLE FONTS --> 
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Tangerine:wght@700&display=swap" rel="stylesheet">
@@ -32,9 +33,6 @@
                                 <a style="color: white;" class="nav-item nav-link links" href="#">Localização</a>
                                 <a style="color: white;" class="nav-item nav-link links" href="#">Serviços</a>
                                 <a style="color: white;" class="nav-item nav-link links" href="#">História</a>
-                                <a style="color: white;" class="nav-item nav-link links" href="#">Cadastro</a>
-                                <a style="color: white;" class="nav-item nav-link links" href="#">Login</a>
-                                <a style="color: white;" class="nav-item nav-link links" href="#">Perfil</a>
                             </div>
                         </ul>
                     </div>
@@ -42,7 +40,7 @@
 
                 <div class="sociais">
                     <a class="botoes" href="https://www.facebook.com/fernanda.vieira.31586526">
-                    <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-facebook-square"></i>
                     </a>
                     <a class="botoes"  href='https://www.instagram.com/fernanda.vieirareis/'>
                         <i class="fab fa-instagram"></i>
@@ -59,10 +57,15 @@
 <!-- BODY -->
 
     <div class="tudo">
-        <div class="titulo" style="margin-left: 25%;">
-            <h1 class="titulo">Fernanda Vieira</h1>
-        </div>            
-
+        <div class="row no-gutters">
+            <div class="titulo col" style="margin-left: 25%;">
+                <h1 class="titulo">Fernanda Vieira</h1>
+            </div>            
+            <div class="divLogin col">
+                <a class="btn btn-dark" href="#"><span class="icon fas fa-user"></span> Login</a>
+                <a class="btn btn-dark" href="#"><span class="icon fas fa-user-plus"></span> Registrar</a>
+            </div>
+        </div>
         <br>
         <div class="containImg">
             <img src="assets/images/fotosalao.jpg" class="fotoSalao" alt="Foto do salão">
