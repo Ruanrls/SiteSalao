@@ -32,9 +32,6 @@
                                 <a style="color: white;" class="nav-item nav-link links" href="#">Localização</a>
                                 <a style="color: white;" class="nav-item nav-link links" href="#">Serviços</a>
                                 <a style="color: white;" class="nav-item nav-link links" href="#">História</a>
-                                <a style="color: white;" class="nav-item nav-link links" href="#">Cadastro</a>
-                                <a style="color: white;" class="nav-item nav-link links" href="#">Login</a>
-                                <a style="color: white;" class="nav-item nav-link links" href="#">Perfil</a>
                             </div>
                         </ul>
                     </div>
@@ -59,10 +56,15 @@
 <!-- BODY -->
 
     <div class="tudo">
-        <div class="titulo" style="margin-left: 25%;">
-            <h1 class="titulo">Fernanda Vieira</h1>
-        </div>            
-
+        <div class="row no-gutters">
+            <div class="titulo col" style="margin-left: 25%;">
+                <h1 class="titulo">Fernanda Vieira</h1>
+            </div>            
+            <div class="divLogin col">
+                <a class="btn btn-dark" href="#"><span class="icon fas fa-user"></span> Login</a>
+                <a class="btn btn-dark" href="#"><span class="icon fas fa-user-plus"></span> Registrar</a>
+            </div>
+        </div>
         <br>
         <div class="containImg">
             <img src="assets/images/fotosalao.jpg" class="fotoSalao" alt="Foto do salão">
