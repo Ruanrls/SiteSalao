@@ -39,7 +39,7 @@
 
                 <div class="sociais">
                     <a class="botoes" href="https://www.facebook.com/fernanda.vieira.31586526">
-                    <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-facebook-square"></i>
                     </a>
                     <a class="botoes"  href='https://www.instagram.com/fernanda.vieirareis/'>
                         <i class="fab fa-instagram"></i>
