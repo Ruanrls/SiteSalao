@@ -7,7 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="assets/images/logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon">
 
     <!-- GOOGLE FONTS --> 
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Tangerine:wght@700&display=swap" rel="stylesheet">
